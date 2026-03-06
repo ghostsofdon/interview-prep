@@ -2,13 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  //TODO:
-  //Fetch data from backend
-  //Implement search by title
-  //Render table with title and body
-  //Add warning if search is empty
-  //Add loading state
-  //Add error state  
+
   const [data, setData] = useState([])
   const [search, setSearch] = useState('')
   const [warning, setWarning] = useState('')

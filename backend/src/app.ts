@@ -8,11 +8,6 @@ app.use(express.json());
 app.get('/', (req: Request, res: Response) => {
   res.status(200).json({ message: 'Interview Ready Backend' });
 });
-//TODO: 
-//Get params, find string in title (search by title)
-//Print title and body
-//React call api-data, pass string to look
-//Print in component just title and description in list
 
 app.get('/api-data', async (req: Request, res: Response) => {
   try {
